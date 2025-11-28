@@ -10,9 +10,6 @@ function App() {
     setCount(count +1);
   }
 
-  console.log(count);
-  
-
   return (
       <div>
         <Button handleClick={handleClick}
