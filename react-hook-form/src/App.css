@@ -1,0 +1,26 @@
+ body{
+    background-color: rgb(34, 32, 32);
+    margin: 0;
+    padding: 0;
+ }
+
+.app-container{
+    height: 100vh;         
+    color: white;
+    display: flex;
+    justify-content: center;   
+    align-items: center;       
+}
+
+.form-container{
+    color: white;
+}
+
+.input-error{
+    border: 1px solid red;
+
+}
+
+.error-msg{
+    color: red;
+}
