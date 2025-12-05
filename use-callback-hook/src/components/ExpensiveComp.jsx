@@ -15,8 +15,7 @@ const expensiveCalculation = useCallback(
         result += i;
     }
     return result
-},[count]
-);
+},[count]);
 
 useEffect(() => {
   if(previousFunction.current) {
